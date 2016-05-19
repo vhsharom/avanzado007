@@ -12,7 +12,7 @@ class AlejandroiViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      view.backgroundColor = UIColor.purpleColor()
         // Do any additional setup after loading the view.
     }
 
