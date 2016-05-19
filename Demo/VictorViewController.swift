@@ -14,6 +14,7 @@ class VictorViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+      print("Aleks was here")
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,7 @@ class ChristianViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor.redColor()
+      print("Aleks was also here")
     }
 
     override func didReceiveMemoryWarning() {
