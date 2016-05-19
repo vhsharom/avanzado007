@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let vc1 = ViewController()
+        let vc2 = AurelioViewController()
+        let vc3 = AlejandroiViewController()
+        let vc4 = ViewController()
+        
+        let tabbarController = UITabBarController()
+        tabbarController.viewControllers = [vc1, vc2, vc3, vc4]
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = tabbarController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

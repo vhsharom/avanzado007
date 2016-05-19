@@ -12,6 +12,9 @@
 		579F4C0C1CEE6FF70095F383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579F4C0A1CEE6FF70095F383 /* Main.storyboard */; };
 		579F4C0E1CEE6FF70095F383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579F4C0D1CEE6FF70095F383 /* Assets.xcassets */; };
 		579F4C111CEE6FF70095F383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579F4C0F1CEE6FF70095F383 /* LaunchScreen.storyboard */; };
+		579F4C191CEE74130095F383 /* AurelioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C181CEE74130095F383 /* AurelioViewController.swift */; };
+		579F4C1B1CEE741A0095F383 /* AlejandroiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */; };
+		579F4C1D1CEE74230095F383 /* ChristianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C1C1CEE74230095F383 /* ChristianViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		579F4C0D1CEE6FF70095F383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579F4C101CEE6FF70095F383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579F4C121CEE6FF70095F383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579F4C181CEE74130095F383 /* AurelioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AurelioViewController.swift; sourceTree = "<group>"; };
+		579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlejandroiViewController.swift; sourceTree = "<group>"; };
+		579F4C1C1CEE74230095F383 /* ChristianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristianViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				579F4C0D1CEE6FF70095F383 /* Assets.xcassets */,
 				579F4C0F1CEE6FF70095F383 /* LaunchScreen.storyboard */,
 				579F4C121CEE6FF70095F383 /* Info.plist */,
+				579F4C181CEE74130095F383 /* AurelioViewController.swift */,
+				579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */,
+				579F4C1C1CEE74230095F383 /* ChristianViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579F4C191CEE74130095F383 /* AurelioViewController.swift in Sources */,
+				579F4C1B1CEE741A0095F383 /* AlejandroiViewController.swift in Sources */,
 				579F4C091CEE6FF70095F383 /* ViewController.swift in Sources */,
+				579F4C1D1CEE74230095F383 /* ChristianViewController.swift in Sources */,
 				579F4C071CEE6FF70095F383 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
