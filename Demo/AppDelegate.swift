@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        let vc1 = ViewController()
+        let vc1 = ChristianViewController()
         let vc2 = AurelioViewController()
         let vc3 = AlejandroiViewController()
         let vc4 = ViewController()
