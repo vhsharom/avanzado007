@@ -15,6 +15,7 @@
 		579F4C191CEE74130095F383 /* AurelioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C181CEE74130095F383 /* AurelioViewController.swift */; };
 		579F4C1B1CEE741A0095F383 /* AlejandroiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */; };
 		579F4C1D1CEE74230095F383 /* ChristianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F4C1C1CEE74230095F383 /* ChristianViewController.swift */; };
+		837213F11CEE76EF0029AD5E /* VictorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837213F01CEE76EF0029AD5E /* VictorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		579F4C181CEE74130095F383 /* AurelioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AurelioViewController.swift; sourceTree = "<group>"; };
 		579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlejandroiViewController.swift; sourceTree = "<group>"; };
 		579F4C1C1CEE74230095F383 /* ChristianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristianViewController.swift; sourceTree = "<group>"; };
+		837213F01CEE76EF0029AD5E /* VictorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				579F4C181CEE74130095F383 /* AurelioViewController.swift */,
 				579F4C1A1CEE741A0095F383 /* AlejandroiViewController.swift */,
 				579F4C1C1CEE74230095F383 /* ChristianViewController.swift */,
+				837213F01CEE76EF0029AD5E /* VictorViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				579F4C191CEE74130095F383 /* AurelioViewController.swift in Sources */,
+				837213F11CEE76EF0029AD5E /* VictorViewController.swift in Sources */,
 				579F4C1B1CEE741A0095F383 /* AlejandroiViewController.swift in Sources */,
 				579F4C091CEE6FF70095F383 /* ViewController.swift in Sources */,
 				579F4C1D1CEE74230095F383 /* ChristianViewController.swift in Sources */,
@@ -298,6 +302,7 @@
 				579F4C171CEE6FF70095F383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

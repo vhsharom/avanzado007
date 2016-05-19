@@ -1,19 +1,19 @@
 //
-//  ChristianViewController.swift
+//  VictorViewController.swift
 //  Demo
 //
-//  Created by Victor Haro on 19/05/16.
+//  Created by MaChris on 19/05/16.
 //  Copyright © 2016 code3e. All rights reserved.
 //
 
 import UIKit
 
-class ChristianViewController: UIViewController {
+class VictorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.redColor()
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
